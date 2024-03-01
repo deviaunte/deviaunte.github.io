@@ -1,0 +1,31 @@
+{
+    "files.eol": "\n",
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.profiles.windows": {
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ],
+            "icon": "terminal-ubuntu"
+        },
+        "PowerShell": null
+    },
+    "extensions.ignoreRecommendations": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "markdownlint.config": {
+        "extends": "./config/markdownlint.jsonc"
+    },
+    "files.exclude": {
+        "node_modules": true
+    }
+}
